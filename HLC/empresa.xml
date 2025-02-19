@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <informacion>
+        <nombre>Tech Solutions</nombre>
+        <direccion>
+            <calle>Avenida Siempre Viva</calle>
+            <numero>742</numero>
+            <ciudad>Springfield</ciudad>
+            <pais>EE.UU.</pais>
+        </direccion>
+        <contacto email="info@techsolutions.com" telefono="+1-555-1234"/>
+    </informacion>
+    
+    <empleados>
+        <empleado id="E001">
+            <nombre>Juan Pérez</nombre>
+            <cargo>Desarrollador</cargo>
+            <departamento>Tecnología</departamento>
+            <salario moneda="USD">60000</salario>
+        </empleado>
+        <empleado id="E002">
+            <nombre>María González</nombre>
+            <cargo>Diseñadora UX</cargo>
+            <departamento>Diseño</departamento>
+            <salario moneda="USD">55000</salario>
+        </empleado>
+    </empleados>
+    
+    <proyectos>
+        <proyecto id="P001" estado="activo">
+            <nombre>Plataforma E-commerce</nombre>
+            <descripcion>Desarrollo de una plataforma de comercio electrónico.</descripcion>
+            <fecha_inicio>2024-01-10</fecha_inicio>
+            <fecha_fin>2024-12-20</fecha_fin>
+            <equipo>
+                <miembro ref="E001" rol="Líder Técnico"/>
+                <miembro ref="E002" rol="Diseñadora"/>
+            </equipo>
+        </proyecto>
+        <proyecto id="P002" estado="completado">
+            <nombre>Aplicación Móvil</nombre>
+            <descripcion>Creación de una aplicación para iOS y Android.</descripcion>
+            <fecha_inicio>2023-03-15</fecha_inicio>
+            <fecha_fin>2023-11-30</fecha_fin>
+        </proyecto>
+    </proyectos>
+    
+    <clientes>
+        <cliente id="C001">
+            <nombre>Empresa XYZ</nombre>
+            <contacto email="contacto@xyz.com" telefono="+1-555-5678"/>
+        </cliente>
+        <cliente id="C002">
+            <nombre>InnovaTech</nombre>
+            <contacto email="info@innovatech.com" telefono="+1-555-8765"/>
+        </cliente>
+    </clientes>
+</empresa>
